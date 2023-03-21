@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+
+    <title>Video BackGround</title>
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--normalize CSS -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <video class="video-container" controls muted autoplay loop>
+        <source
+          src="./assets/videos/Pexels Videos 1851190.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <h1>Video Project</h1>
+      <button class="switch-btns">
+        <span>PLAY</span>
+        <span>PAUSE</span>
+        <span class="switch"></span>
+      </button>
+    </header>
+    <!-- Custom JavaScript -->
+    <script src="./script/script.js"></script>
+  </body>
+</html>
